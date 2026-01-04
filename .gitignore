@@ -1,0 +1,22 @@
+# --- System Files (ขยะจาก OS) ---
+.DS_Store
+Thumbs.db
+
+# --- Node.js (Frontend/Backend) ---
+node_modules/
+dist/
+build/
+
+# --- Python/AI ---
+__pycache__/
+*.pyc
+venv/
+env/
+
+# --- Environment Variables (ความลับสุดยอด ห้ามหลุด!) ---
+.env
+.env.local
+
+# --- IDE Settings (การตั้งค่าส่วนตัวของ Editor) ---
+.vscode/
+.idea/
